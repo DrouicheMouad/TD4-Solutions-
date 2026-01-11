@@ -5,10 +5,11 @@ void Bin(int n) {
 	}
 	Bin(n / 2);
 	printf("%d", n % 2);
+
 }
 
 
 int main() {
-	Bin(21);
+	Bin(10);
 	return 0;
 }
